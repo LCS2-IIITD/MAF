@@ -36,10 +36,14 @@ We augment [MaSaC](https://github.com/LCS2-IIITD/MSH-COMICS), a multi-modal, cod
 ```
 
 ##### Audio Features: DataFrame
+```
 | episode_name	| target_speaker | target_utterance | context_speakers | context_utterances | sarcasm_target | code_mixed_explanation | start_time | end_time | audio_feats |
+```
 
 ##### Video features: DataFrame
+```
 | episode_name	| target_speaker | target_utterance | context_speakers | context_utterances | sarcasm_target | code_mixed_explanation | start_time | end_time | video_feats |
+```
 
 ### Training and Evaluation
 - Place the text, audio, and video feature files in the format as described above in the following manner in the 'Data' folder:
