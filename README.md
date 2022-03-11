@@ -5,7 +5,7 @@ This repository contains the code required to reproduce the results of our ACL 2
 The paper introduces the novel task of sarcasm explanation in dialogues (SED). Set in a multimodal and code-mixed setting, the task aims to generate natural language explanations of satirical conversations.
 An example case is illustrated in the figure below:
 
-![SED Example](/imgs/sed_eg.png "SED Example")
+![SED Example](/imgs/se_eg4-1.png "SED Example")
 
 It contains a dyadic conversation of four utterances hu1, u2, u3, u4i, where the last utterance (u4) is a sarcastic remark. Note that in this example,
 although the opposite of what is being said is, “I don’t have to think about it," it is not what the speaker means; thus,
@@ -18,7 +18,7 @@ We augment [MaSaC](https://github.com/LCS2-IIITD/MSH-COMICS), a multi-modal, cod
 
 ### Data Format
 ##### Text Features: JSON
-```json
+```
 {
   'd_id': {
     'episode_name': title,
