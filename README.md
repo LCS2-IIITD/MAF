@@ -46,6 +46,7 @@ We augment [MaSaC](https://github.com/LCS2-IIITD/MSH-COMICS), a multi-modal, cod
 ```
 
 ### Training and Evaluation
+- Download data features from [this drive link](https://drive.google.com/drive/folders/1hUnoicZPwCWB0IZfZ3X28-vc58O-saXt?usp=sharing).
 - Place the text, audio, and video feature files in the format as described above in the following manner in the 'Data' folder:
     - Data
         - Text
