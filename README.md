@@ -1,6 +1,6 @@
 # *When did you become so smart, oh wise one?!* Sarcasm Explanation in Multi-modal Multi-party Dialogues
 
-This repository contains the code required to reproduce the results of our ACL 2022 paper - ["*When did you become so smart, oh wise one?!* Sarcasm Explanation in Multi-modal Multi-party Dialogues"](https://arxiv.org/abs/2203.06419).
+This repository contains the code required to reproduce the results of our ACL 2022 paper - ["*When did you become so smart, oh wise one?!* Sarcasm Explanation in Multi-modal Multi-party Dialogues"](https://aclanthology.org/2022.acl-long.411/).
 
 The paper introduces the novel task of sarcasm explanation in dialogues (SED). Set in a multimodal and code-mixed setting, the task aims to generate natural language explanations of satirical conversations.
 An example case is illustrated in the figure below:
