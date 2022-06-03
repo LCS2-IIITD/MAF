@@ -66,3 +66,23 @@ We augment [MaSaC](https://github.com/LCS2-IIITD/MSH-COMICS), a multi-modal, cod
     - Go to the 'Code' directory and run ```python Trimodal-BART-driver.py```.
 
 Models will be saved in the 'models' directory while generated explanations on the val and test sets will be saved in the 'results' folder.
+
+
+### Citation
+```
+@inproceedings{kumar-etal-2022-become,
+    title = "When did you become so smart, oh wise one?! Sarcasm Explanation in Multi-modal Multi-party Dialogues",
+    author = "Kumar, Shivani  and
+      Kulkarni, Atharva  and
+      Akhtar, Md Shad  and
+      Chakraborty, Tanmoy",
+    booktitle = "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = may,
+    year = "2022",
+    address = "Dublin, Ireland",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.acl-long.411",
+    pages = "5956--5968",
+    abstract = "Indirect speech such as sarcasm achieves a constellation of discourse goals in human communication. While the indirectness of figurative language warrants speakers to achieve certain pragmatic goals, it is challenging for AI agents to comprehend such idiosyncrasies of human communication. Though sarcasm identification has been a well-explored topic in dialogue analysis, for conversational systems to truly grasp a conversation{'}s innate meaning and generate appropriate responses, simply detecting sarcasm is not enough; it is vital to explain its underlying sarcastic connotation to capture its true essence. In this work, we study the discourse structure of sarcastic conversations and propose a novel task {--} Sarcasm Explanation in Dialogue (SED). Set in a multimodal and code-mixed setting, the task aims to generate natural language explanations of satirical conversations. To this end, we curate WITS, a new dataset to support our task. We propose MAF (Modality Aware Fusion), a multimodal context-aware attention and global information fusion module to capture multimodality and use it to benchmark WITS. The proposed attention module surpasses the traditional multimodal fusion baselines and reports the best performance on almost all metrics. Lastly, we carry out detailed analysis both quantitatively and qualitatively.",
+}
+```
