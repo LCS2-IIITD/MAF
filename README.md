@@ -17,7 +17,7 @@ explanation associated with these sarcastic dialogues.
 
 We augment [MaSaC](https://github.com/LCS2-IIITD/MSH-COMICS), a multi-modal, code-mixed, sarcasm detection dataset in dialogues with code-mixed explanations to create **WITS** (**W**hy **I**s **T**his **S**arcastic?) dataset.
 
-### Data Format
+## Data Format
 ##### Text Features: JSON
 ```
 {
@@ -46,7 +46,7 @@ We augment [MaSaC](https://github.com/LCS2-IIITD/MSH-COMICS), a multi-modal, cod
 | episode_name	| target_speaker | target_utterance | context_speakers | context_utterances | sarcasm_target | code_mixed_explanation | start_time | end_time | video_feats |
 ```
 
-### Training and Evaluation
+## Training and Evaluation
 - Download data features from [this drive link](https://drive.google.com/drive/folders/1hUnoicZPwCWB0IZfZ3X28-vc58O-saXt?usp=sharing).
 - Place the text, audio, and video feature files in the format as described above in the following manner in the 'Data' folder:
     - Data
@@ -68,7 +68,7 @@ We augment [MaSaC](https://github.com/LCS2-IIITD/MSH-COMICS), a multi-modal, cod
 Models will be saved in the 'models' directory while generated explanations on the val and test sets will be saved in the 'results' folder.
 
 
-### Citation
+## Citation
 ```
 @inproceedings{kumar-etal-2022-become,
     title = "When did you become so smart, oh wise one?! Sarcasm Explanation in Multi-modal Multi-party Dialogues",
